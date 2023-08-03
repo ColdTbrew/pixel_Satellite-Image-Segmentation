@@ -1,5 +1,3 @@
-아래는 주어진 내용을 Markdown 형식으로 이쁘게 변환한 것입니다:
-
 ## Pretrained Checkpoints
 
 1. swin90.19_first_Train_iter_158000.pth  
@@ -30,5 +28,3 @@
 ```
 python work_dirs/swin/infer.py
 ```
-
-위 내용을 .md 파일로 저장하면 Markdown 형식의 문서가 완성됩니다. 이렇게 수정된 내용을 참고하여 원하는 작업을 진행하시기 바랍니다.
