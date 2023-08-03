@@ -1,6 +1,8 @@
-# InternImage
+# 🛰️SW중심대학 공동 AI 경진대회 2023 (Satellite Image Building Area Segmentation)   
 
-[Install](https://github.com/OpenGVLab/InternImage/blob/master/segmentation/README.md)
+# InternImage 🌃
+
+[Installation](https://github.com/OpenGVLab/InternImage/blob/master/segmentation/README.md)
 
 ## Pretrained Checkpoints
 
@@ -32,9 +34,9 @@
 ```
 
 
-# SWINv2
+# SWINv2 🌌
 
-[Install](mmseg_1.x.x/docs/en/get_started.md)
+[Installation](mmseg_1.x.x/docs/en/get_started.md)
 
 ## Pretrained path
 
@@ -63,9 +65,9 @@ python work_dirs/swin/infer.py
 
 
 
-# Mask2Former
+# Mask2Former 🖼️
 
-[Install](mmseg_1.x.x/docs/en/get_started.md)
+[Installation](mmseg_1.x.x/docs/en/get_started.md)
 
 ## Pretrained Checkpoints
 
