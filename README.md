@@ -57,6 +57,7 @@
 ## How to start inference
 
 ```
+cd mmseg_1.x.x
 python work_dirs/swin/infer.py
 ```
 
@@ -100,6 +101,7 @@ python work_dirs/swin/infer.py
 ## How to start inference
 
 ```
+cd mmseg_1.x.x
 python work_dirs/mask2former/infer_m2f.py
 ```
 
