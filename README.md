@@ -116,6 +116,7 @@ python work_dirs/mask2former/infer_m2f.py
 swin + internimage + mask2former (threshold = 2)
 
 ## Extra ensemble
+[Ensemble](post_processing/ensemble/ensemble_by_weight.py)
 점수를 최대한 높이기 위해 csv 앙상블의 단점인 threshold를 다양하게 적용해 보기 위해 여러 제출 .csv 파일을
 이용해 각각 submit.csv의 public score를 기준으로 각각 가중치를 주어 앙상블 후 ensemble8_21_th0.35.csv 생성해
 최고 public score를 0.8226를 도달함
