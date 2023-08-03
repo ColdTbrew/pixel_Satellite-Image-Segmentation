@@ -108,7 +108,7 @@ python work_dirs/mask2former/infer_m2f.py
 ```
 
 
-# Ensemble
+# Ensemble 🎯
 [Ensemble](post_processing/ensemble/ensemble.py)
 1. Swin (단일 모델)
 2. internimage 
@@ -125,7 +125,7 @@ swin + internimage + mask2former (threshold = 2)
 이용해 각각 submit.csv의 public score를 기준으로 각각 가중치를 주어 앙상블 후 ensemble8_21_th0.35.csv 생성해
 최고 public score를 0.8226를 도달함
 
-## System environment:
+## System environment: 🖥️
 
 - sys.platform: linux
 - Python: 3.8.5 (default, Sep  4 2020, 07:30:14) [GCC 7.3.0]
