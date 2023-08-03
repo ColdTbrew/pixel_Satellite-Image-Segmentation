@@ -7,13 +7,13 @@
 1. INTERN_best_mDice_iter_336000.pth  
    [Download Link](https://drive.google.com/file/d/1B2ieT2W_I-tp-yjzfR7_sOoKfQK8sj7R/view?usp=drive_link)
 
-3. INTERN_k1_best_mDice_iter_210000.pth  
+2. INTERN_k1_best_mDice_iter_210000.pth  
    [Download Link](https://drive.google.com/file/d/1X-1BNwz0eQ4AV2eqtzdBtenS2i5bPAyW/view?usp=drive_link)
 
-4. INTERN_k3_best_mDice_iter_220000.pth  
+3. INTERN_k3_best_mDice_iter_220000.pth  
    [Download Link](https://drive.google.com/file/d/1MvktQmj8wdS1PNDlLoPUvT4b4zOxyAEN/view?usp=sharing)
 
-5. INTERN_k4_best_mDice_iter_280000.pth  
+4. INTERN_k4_best_mDice_iter_280000.pth  
    [Download Link](https://drive.google.com/file/d/1ijjzE5yT190OEeIHdn1_t27Q-y0Mk7vO/view?usp=drive_link)
 
 ## How to start training
@@ -44,7 +44,7 @@
 ## Pretrained Checkpoints
 
 1. swin_best_mDice_iter_320000.pth (160k + 160k)   
-   [Google Drive Link](https://drive.google.com/file/d/1fI4Zfn_rKznJbPGee37jaEuZb_bO8fDK/view?usp=share_link)
+   [Google Drive Link](https://drive.google.com/file/d/1fI4Zfn_rKznJbPGee37jaEuZb_bO8fDK/view?usp=drive_link)
 
 ## How to start training
 
@@ -68,14 +68,14 @@ python work_dirs/swin/infer.py
 
 ## Pretrained Checkpoints
 
-1. m2f_K2_best_mDice_iter_90000.pth  (90k)
-   [Google Drive Link](https://drive.google.com/file/d/1NHI02wH_hzVNtEsWXzRa23MlH903W7an/view?usp=share_link)
+1. m2f_K2_best_mDice_iter_90000.pth  (90k)  
+   [Google Drive Link](https://drive.google.com/file/d/1NHI02wH_hzVNtEsWXzRa23MlH903W7an/view?usp=drive_link)
 
-2. m2f_K3_best_mDice_iter_90000.pth (90k + 90k)  
-   [Google Drive Link](https://drive.google.com/file/d/199AWAwd8n758zGUQIJlDVl_wd3dz1AwT/view?usp=share_link)
+2. m2f_K3_best_mDice_iter_90000.pth (90k + 90k)    
+   [Google Drive Link](https://drive.google.com/file/d/199AWAwd8n758zGUQIJlDVl_wd3dz1AwT/view?usp=drive_link)
 
-3. m2f_K4_best_mDice_iter_90000.pth (90k + 90k)  
-   [Google Drive Link](https://drive.google.com/file/d/1C637rkVaIV14SmdTHMzFM4SYQp-ceY6e/view?usp=share_link)
+3. m2f_K4_best_mDice_iter_90000.pth (90k + 90k)    
+   [Google Drive Link](https://drive.google.com/file/d/1C637rkVaIV14SmdTHMzFM4SYQp-ceY6e/view?usp=drive_link)
 
 ## How to start training
 
@@ -102,3 +102,15 @@ python work_dirs/swin/infer.py
 ```
 python work_dirs/mask2former/infer_m2f.py
 ```
+
+
+# Ensemble
+
+1. Swin (단일 모델)
+2. internimage 
+   - best_mDice_iter_336000 + k1 + k3 + k4 (threshold = 2)
+3. mask2former
+   - k2 + k3 + k4 (threshold = 2)
+
+-> last submit  
+swin + internimage + mask2former (threshold = 2)
