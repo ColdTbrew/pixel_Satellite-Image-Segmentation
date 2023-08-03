@@ -36,7 +36,6 @@ def main():
     file_name = "ensemble_last.csv" #변수
     threshold = 2   #변수
     
-    img_shape = (224, 224)
     source_list = [pd.read_csv(os.path.join(source_dir, f)) for f in os.listdir(source_dir) if os.path.splitext(f)[1] == '.csv']
     
     result = []
