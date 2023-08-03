@@ -1,15 +1,8 @@
-import os, cv2
-import mmcv
-import torch
+import os
 from tqdm import tqdm
-from argparse import ArgumentParser
-from mmseg.apis import init_model, inference_model
-
+import numpy as np
 import pandas as pd
-import numpy as np
-import json
-import numpy as np
-import matplotlib.pyplot as plt
+from argparse import ArgumentParser
 
 # RLE 인코딩 함수
 def rle_encode(mask):
@@ -42,15 +35,13 @@ def normalize_scores(scores):
     normalized_scores = [score / max_score for score in scores]
     return normalized_scores
 
-source_dir = "source"
+source_dir = "source_by_weights"
 sample_submission_dir = "sample_submission.csv"
-save_dir = "submit_csv"
-file_name = "ensemble6_11_th0.70.csv"  # 변수
-threshold = 0.7  # 변수
+save_dir = "submit"
+file_name = "ensemble8_21_th0.35.csv " # 변수
+threshold = 0.35  # 변수
 print('threshold: ', threshold)
 print('file_name : ',file_name)
-
-img_shape = (224, 224)
 
 # 파일 이름을 기준으로 정렬하여 파일 리스트 가져오기
 file_list = sorted([f for f in os.listdir(source_dir) if os.path.splitext(f)[1] == '.csv'])
@@ -58,16 +49,16 @@ file_list = sorted([f for f in os.listdir(source_dir) if os.path.splitext(f)[1] 
 source_list = [pd.read_csv(os.path.join(source_dir, f)) for f in file_list]
 
 result = []
-#target csv:  ['InternImage_Plus4_332000.csv', 'ensemble4_deep+intern+hr+swin_Th2.csv', 'ensemble4_intern+hr+swin_9019.csv', 'ensemble5_intern+mask2former+swin_9019.csv', 'submit_swin2_90.19_01.csv']
-
-# weights = [ 81,29, 81.59, 81.83, 82.04,   81.32]
 
 #Record
-# # target csv : ['InternImage3.csv', 'InternImage_Plus3_2.csv', 'InternImage_Plus4_332000.csv', 
+# # target csv : ['InternImage3.csv', 'InternImage_Plus3_2.csv', 'InternImage_Plus4_332000.csv',
 # # 'ensemble4_deep+intern+hr+swin-Copy1.csv', 'ensemble4_deep+intern+hr+swin_Th2.csv', 'ensemble4_intern+hr+swin_9019.csv', 'ensemble5_intern+mask2former+swin_9019.csv', 'submit_hrnet_03.csv', 'submit_m2f_k2.csv', 'submit_swin2_90.19_01.csv', 'submit_swin_89.74_03.csv']
 
-weights = [79.99, 80.74, 81,29,80.64, 81.59, 81.83, 82.04, 79.69, 80.14, 81.32, 80.78]
-
+weights = [80.14, 80.14, 80.14, 80.14, 80.14,
+           80.43, 80.64, 80.64, 80.69, 80.74,
+           80.78, 81.20, 81.21, 81.28, 81.29,
+           81.32, 81.59, 81.83, 82.04, 82.16,
+           82.16]
 print(func(weights))
 table = pd.read_csv(sample_submission_dir)["img_id"].values.tolist()
 print("target csv: ", file_list)
