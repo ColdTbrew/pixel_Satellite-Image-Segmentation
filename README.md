@@ -112,7 +112,7 @@ python work_dirs/mask2former/infer_m2f.py
 3. mask2former
    - k2 + k3 + k4 (threshold = 2)
 
--> last submit  
+**last submit**  
 swin + internimage + mask2former (threshold = 2)
 
 ## Extra ensemble
