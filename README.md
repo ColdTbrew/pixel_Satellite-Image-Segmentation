@@ -1,4 +1,16 @@
 # 🛰️SW중심대학 공동 AI 경진대회 2023 (Satellite Image Building Area Segmentation)   
+[PIXEL Team]  
+  [ColdTbrew](https://github.com/ColdTbrew)  
+  [hyjk826](https://github.com/hyjk826)  
+  [uijinee](https://github.com/uijinee)  
+  [junghyun2moon](https://github.com/junghyun2moon)
+
+## 대회 사이트
+   [데이콘]( https://dacon.io/competitions/official/236092/overview/description)
+
+## 주제 선정 배경
+[image](https://github.com/uijinee/pixel_Satellite-Image-Segmentation/assets/117180508/a4cb495f-bc76-4126-b852-1d4df0240809)
+
 
 # InternImage 🌃
 
