@@ -5,11 +5,35 @@
   [uijinee](https://github.com/uijinee)  
   [junghyun2moon](https://github.com/junghyun2moon)
 
+## Index
+- [대회 사이트](#대회-사이트)
+- [주제 선정 배경](#주제-선정-배경)
+- [InternImage 🌃](#internimage-🌃)
+  - [Installation](#installation)
+  - [Pretrained Checkpoints](#pretrained-checkpoints)
+  - [How to start training](#how-to-start-training)
+  - [How to start inference](#how-to-start-inference)
+- [SWINv2 🌌](#swinv2-🌌)
+  - [Installation](#installation-1)
+  - [Pretrained path](#pretrained-path)
+  - [Pretrained Checkpoints](#pretrained-checkpoints-1)
+  - [How to start training](#how-to-start-training-1)
+  - [How to start inference](#how-to-start-inference-1)
+- [Mask2Former 🖼️](#mask2former-🖼️)
+  - [Installation](#installation-2)
+  - [Pretrained Checkpoints](#pretrained-checkpoints-2)
+  - [How to start training](#how-to-start-training-2)
+  - [How to start inference](#how-to-start-inference-2)
+- [Ensemble 🎯](#ensemble-🎯)
+  - [앙상블 스크립트](#앙상블-스크립트)
+  - [추가 앙상블](#추가-앙상블)
+  - [시스템 환경](#시스템-환경)
+
 ## 대회 사이트
    [데이콘]( https://dacon.io/competitions/official/236092/overview/description)
 
 ## 주제 선정 배경
-[image](https://github.com/uijinee/pixel_Satellite-Image-Segmentation/assets/117180508/a4cb495f-bc76-4126-b852-1d4df0240809)
+![image](Images/dacon_info.png)
 
 
 # InternImage 🌃
