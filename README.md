@@ -9,25 +9,25 @@
 - [대회 사이트](#대회-사이트)
 - [주제 선정 배경](#주제-선정-배경)
 - [InternImage 🌃](#internimage-🌃)
-  - [Installation](#installation)
+  - [Install mmseg](#install-mmseg)
   - [Pretrained Checkpoints](#pretrained-checkpoints)
   - [How to start training](#how-to-start-training)
   - [How to start inference](#how-to-start-inference)
 - [SWINv2 🌌](#swinv2-🌌)
-  - [Installation](#installation-1)
+  - [Install mmseg](#install-mmseg-1)
   - [Pretrained path](#pretrained-path)
   - [Pretrained Checkpoints](#pretrained-checkpoints-1)
   - [How to start training](#how-to-start-training-1)
   - [How to start inference](#how-to-start-inference-1)
 - [Mask2Former 🖼️](#mask2former-🖼️)
-  - [Installation](#installation-2)
+  - [Install mmseg](#install-mmseg-2)
   - [Pretrained Checkpoints](#pretrained-checkpoints-2)
   - [How to start training](#how-to-start-training-2)
   - [How to start inference](#how-to-start-inference-2)
 - [Ensemble 🎯](#ensemble-🎯)
-  - [앙상블 스크립트](#앙상블-스크립트)
-  - [추가 앙상블](#추가-앙상블)
-  - [시스템 환경](#시스템-환경)
+  - [Ensemble Script](#ensemble-script)
+  - [Extra Ensemble](#extra-ensemble)
+  - [System Environment](#system-environment)
 
 ## 대회 사이트
    [데이콘]( https://dacon.io/competitions/official/236092/overview/description)
@@ -38,6 +38,7 @@
 
 # InternImage 🌃
 
+## Install mmseg  
 [Installation](https://github.com/OpenGVLab/InternImage/blob/master/segmentation/README.md)
 
 ## Pretrained Checkpoints
@@ -72,6 +73,7 @@
 
 # SWINv2 🌌
 
+## Install mmseg  
 [Installation](mmseg_1.x.x/docs/en/get_started.md)
 
 ## Pretrained path
@@ -103,6 +105,7 @@ python work_dirs/swin/infer.py
 
 # Mask2Former 🖼️
 
+## Install mmseg  
 [Installation](mmseg_1.x.x/docs/en/get_started.md)
 
 ## Pretrained Checkpoints
