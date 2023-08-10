@@ -1,7 +1,44 @@
 # 🛰️SW중심대학 공동 AI 경진대회 2023 (Satellite Image Building Area Segmentation)   
+[PIXEL Team]  
+  [ColdTbrew](https://github.com/ColdTbrew)  
+  [hyjk826](https://github.com/hyjk826)  
+  [uijinee](https://github.com/uijinee)  
+  [junghyun2moon](https://github.com/junghyun2moon)
+
+## Index
+- [대회 사이트](#대회-사이트)
+- [주제 선정 배경](#주제-선정-배경)
+- [InternImage 🌃](#internimage-🌃)
+  - [Install mmseg](#install-mmseg)
+  - [Pretrained Checkpoints](#pretrained-checkpoints)
+  - [How to start training](#how-to-start-training)
+  - [How to start inference](#how-to-start-inference)
+- [SWINv2 🌌](#swinv2-🌌)
+  - [Install mmseg](#install-mmseg-1)
+  - [Pretrained path](#pretrained-path)
+  - [Pretrained Checkpoints](#pretrained-checkpoints-1)
+  - [How to start training](#how-to-start-training-1)
+  - [How to start inference](#how-to-start-inference-1)
+- [Mask2Former 🖼️](#mask2former-🖼️)
+  - [Install mmseg](#install-mmseg-2)
+  - [Pretrained Checkpoints](#pretrained-checkpoints-2)
+  - [How to start training](#how-to-start-training-2)
+  - [How to start inference](#how-to-start-inference-2)
+- [Ensemble 🎯](#ensemble-🎯)
+  - [Ensemble Script](#ensemble-script)
+  - [Extra Ensemble](#extra-ensemble)
+  - [System Environment](#system-environment)
+
+## 대회 사이트
+   [데이콘]( https://dacon.io/competitions/official/236092/overview/description)
+
+## 주제 선정 배경
+![image](Images/dacon_info.png)
+
 
 # InternImage 🌃
 
+## Install mmseg  
 [Installation](https://github.com/OpenGVLab/InternImage/blob/master/segmentation/README.md)
 
 ## Pretrained Checkpoints
@@ -36,6 +73,7 @@
 
 # SWINv2 🌌
 
+## Install mmseg  
 [Installation](mmseg_1.x.x/docs/en/get_started.md)
 
 ## Pretrained path
@@ -67,6 +105,7 @@ python work_dirs/swin/infer.py
 
 # Mask2Former 🖼️
 
+## Install mmseg  
 [Installation](mmseg_1.x.x/docs/en/get_started.md)
 
 ## Pretrained Checkpoints
